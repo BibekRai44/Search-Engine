@@ -1,4 +1,4 @@
 # Search-Engine
-Search engine locally with SerpStack API
+Making basic Search engine locally with SerpStack API
 
-```Check the deployement```
+**Deployment is for frontend only. Real working is locally**
