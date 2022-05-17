@@ -8,13 +8,16 @@ $("#form").submit(function (e){
     console.log(url)
 
     $.get(url,function(data){
+
+        $("#result").html('')
         console.log(data)
 
         data.organic_results.forEach(res => {
             
             result = `
-             <h1>${res.title}</h1><br><a href="${res.url}">${res.url}</a>
-             <p>${res.snippet}</p>
+             <h2>${res.title}</h2>
+             <br><a target="_blank" href="${res.url}">${res.url}</a></br>
+             
             `
             $("#result").append(result)
         });
