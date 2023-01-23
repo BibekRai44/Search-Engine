@@ -1,13 +1,13 @@
 h1{
     text-align: center;
     font-size:80px;
-    color: chocolate;
+    color: rgb(0, 220, 117);
 }
 h2{
     text-align: left;
     font-size: 20px;
     font-family: sans-serif;
-    color: black;
+    color: rgb(169, 5, 5);
 }
 form{
     text-align: center;
